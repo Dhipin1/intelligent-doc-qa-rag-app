@@ -6,12 +6,12 @@ __pycache__/
 # Secrets
 .env
 
-# Raw dataset (large)
-data/raw/
-
-# Index (large, we will upload separately to Hugging Face)
+# DO NOT upload big index
 data/index/
 
 # OS files
 Thumbs.db
 .DS_Store
+
+data/raw/AllCombined.txt
+
