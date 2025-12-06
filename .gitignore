@@ -1,0 +1,17 @@
+# Virtual environment
+.venv/
+venv/
+__pycache__/
+
+# Secrets
+.env
+
+# Raw dataset (large)
+data/raw/
+
+# Index (large, we will upload separately to Hugging Face)
+data/index/
+
+# OS files
+Thumbs.db
+.DS_Store
